@@ -1,13 +1,13 @@
-package com.snakes.snakes
+package com.snakes
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
 class SnakesApplicationTests {
-
 	@Test
 	fun contextLoads() {
+
 	}
 
 }
