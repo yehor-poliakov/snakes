@@ -66,7 +66,7 @@ class GameModelTest {
     @Test
     fun `should acknowledge player as winner after roll result of three at position ninety seven`() {
         //Given the token is on square 97
-        val gameModel = GameModel(playerPosition = 97)
+        val gameModel = GameModel(playerPosition = 97, id = 0)
 
         //When the token is moved 3 spaces
         val resultGame = gameManager.movePlayer(gameModel, 3)
@@ -80,7 +80,7 @@ class GameModelTest {
     @Test
     fun `should not move player nor acknowledge victory after roll result of four at position ninety seven`() {
         //Given the token is on square 97
-        val gameModel = GameModel(playerPosition = 97)
+        val gameModel = GameModel(playerPosition = 97, id = 0)
 
         //When the token is moved 4 spaces
         val resultGame = gameManager.movePlayer(gameModel, 4)

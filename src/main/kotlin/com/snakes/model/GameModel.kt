@@ -1,6 +1,7 @@
 package com.snakes.model
 
 data class GameModel(
+    val id: Long,
     val boardSize: Int = 100,
     var playerPosition: Int = 1,
     var stage: GameStage = GameStage.Continue,

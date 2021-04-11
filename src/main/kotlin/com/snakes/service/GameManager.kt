@@ -20,5 +20,5 @@ class GameManager {
         }
     }
 
-    fun newGame() : GameModel = GameModel()
+    fun newGame() : GameModel = GameModel(id = 0)
 }
