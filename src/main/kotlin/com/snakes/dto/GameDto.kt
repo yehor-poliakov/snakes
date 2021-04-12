@@ -2,7 +2,7 @@ package com.snakes.dto
 
 import com.snakes.model.GameStage
 
-data class GameDto (
+data class GameDto(
     val id: Long,
     val boardSize: Int = 100,
     var playerPosition: Int = 1,

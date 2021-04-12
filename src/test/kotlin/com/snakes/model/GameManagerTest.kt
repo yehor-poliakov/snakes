@@ -1,10 +1,11 @@
 package com.snakes.model
 
 import com.snakes.service.GameManager
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
-class GameModelTest {
+class GameManagerTest {
     private val gameManager = GameManager()
 
     @Test

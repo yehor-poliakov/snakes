@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class SnakesApplication
 
 fun main(args: Array<String>) {
-	runApplication<SnakesApplication>(*args)
+    runApplication<SnakesApplication>(*args)
 }

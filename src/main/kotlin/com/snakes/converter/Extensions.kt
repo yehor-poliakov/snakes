@@ -17,6 +17,7 @@ fun Optional<GameModel>.toDto(): Optional<GameDto> = map {
 fun Optional<GameDto>.toModel(): Optional<GameModel> = map {
     GameModel(it.id, it.boardSize, it.playerPosition, it.stage)
 }
+
 fun Optional<GameModel>.toEntity(): Optional<GameEntity> = map {
     GameEntity(it.id, it.boardSize, it.playerPosition, it.stage)
 }

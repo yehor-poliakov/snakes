@@ -8,17 +8,18 @@ import org.springframework.stereotype.Service
 import java.util.*
 
 @Service
-class GameService (val repository: GameRepository,
-                   val manager: GameManager
+class GameService(
+    val repository: GameRepository,
+    val manager: GameManager
 ) {
-    fun getState(id: Long) : Optional<GameModel> {
+    fun getState(id: Long): Optional<GameModel> {
         val entity = repository.findById(id)
         return entity.toModel()
     }
 
-    fun makeMove(id: Long) : Optional<GameModel> {
+    fun makeMove(id: Long): Optional<GameModel> {
         val model = repository.findById(id).toModel()
-        if(model.isEmpty){
+        if (model.isEmpty) {
             return model
         }
         val die = manager.rollDie()
