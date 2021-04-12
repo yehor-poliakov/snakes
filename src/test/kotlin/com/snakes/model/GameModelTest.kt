@@ -34,9 +34,9 @@ class GameModelTest {
         val game = gameManager.newGame()
 
         //When the token is moved 3 spaces
-        gameManager.movePlayer(game, 3)
+        val gameAfterFirstMove = gameManager.movePlayer(game, 3)
         //And then it is moved 4 spaces
-        val actualGame = gameManager.movePlayer(game, 3)
+        val actualGame = gameManager.movePlayer(gameAfterFirstMove, 4)
 
         //Then the token is on square 8
         assertEquals(8, actualGame.playerPosition)
