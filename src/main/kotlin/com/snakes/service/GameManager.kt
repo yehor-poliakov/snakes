@@ -1,7 +1,7 @@
 package com.snakes.service
 
-import com.snakes.model.GameModel
-import com.snakes.model.GameStage
+import com.snakes.GameModel
+import com.snakes.GameStage
 import org.springframework.stereotype.Service
 import kotlin.random.Random
 

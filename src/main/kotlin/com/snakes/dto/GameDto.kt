@@ -1,6 +1,6 @@
 package com.snakes.dto
 
-import com.snakes.model.GameStage
+import com.snakes.GameStage
 
 data class GameDto(
     val id: Long,

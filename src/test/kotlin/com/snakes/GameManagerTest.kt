@@ -1,4 +1,4 @@
-package com.snakes.model
+package com.snakes
 
 import com.snakes.service.GameManager
 import org.junit.jupiter.api.Assertions.assertEquals

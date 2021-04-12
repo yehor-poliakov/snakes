@@ -1,4 +1,4 @@
-package com.snakes.model
+package com.snakes
 
 data class GameModel(
     val id: Long,

@@ -1,4 +1,4 @@
-package com.snakes.model
+package com.snakes
 
 enum class GameStage {
     Continue,

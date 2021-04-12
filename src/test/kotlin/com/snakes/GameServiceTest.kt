@@ -1,4 +1,4 @@
-package com.snakes.model
+package com.snakes
 
 import com.snakes.entity.GameEntity
 import com.snakes.repository.GameRepository

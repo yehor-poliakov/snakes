@@ -1,6 +1,6 @@
 package com.snakes.entity
 
-import com.snakes.model.GameStage
+import com.snakes.GameStage
 import javax.persistence.*
 
 @Entity

@@ -2,7 +2,7 @@ package com.snakes.service
 
 import com.snakes.converter.toEntity
 import com.snakes.converter.toModel
-import com.snakes.model.GameModel
+import com.snakes.GameModel
 import com.snakes.repository.GameRepository
 import org.springframework.stereotype.Service
 import java.util.*

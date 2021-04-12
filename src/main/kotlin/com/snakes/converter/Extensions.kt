@@ -2,7 +2,7 @@ package com.snakes.converter
 
 import com.snakes.dto.GameDto
 import com.snakes.entity.GameEntity
-import com.snakes.model.GameModel
+import com.snakes.GameModel
 import java.util.*
 
 fun Optional<GameEntity>.toModel(): Optional<GameModel> = map {
