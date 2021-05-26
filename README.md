@@ -7,7 +7,7 @@
 
 ### Specifications:
 * SpringBoot MVC web-application on Kotlin
-* Java 11, Kotlin 1.4
+* Java 11, Kotlin 1.4.3
 * Gradle build
 * H2 in-memory database as a primary database
 * Swagger to allow endpoint testing
