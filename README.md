@@ -1,6 +1,6 @@
 ## Snakes and Ladders backend stub
 ### Project description:
-* Implements three features for Snakes and Ladders game:
+* Implements three basic features for the game "Snakes and Ladders":
     * creating a new game
     * moving player's token across an empty board
     * retrieving an existing game
